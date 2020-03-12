@@ -1,0 +1,25 @@
+﻿@using BootsrapDemoTest.Models
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h1>List</h1>*@
+<ul>
+    @*@foreach (Album p in Model)
+    {
+        <li>@p.Title</li>
+    }*@
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+            List
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            @foreach (Album p in Model)
+            {
+                <li>@p.Title</li>
+            }
+        </ul>
+    </div>
+</ul>

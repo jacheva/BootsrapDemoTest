@@ -1,4 +1,4 @@
-﻿﻿ /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 a.navbar-brand {
     white-space: normal;
@@ -28,7 +28,7 @@ html {
     font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     html {
         font-size: 16px;
     }
@@ -73,15 +73,18 @@ body {
 
 /* Set gray background color and 100% height */
 .sidenav {
-    border:20px;
+    margin-top: 20px;
+    border: 20px;
     padding-top: 20px;
     background-color: #f1f1f1;
     height: 100%;
 }
+
 .navbar-inverse {
     background-color: lavander;
     border-color: #080808;
 }
+
 .navbar-nav {
     background-color: lavander;
     border-color: #080808;
@@ -95,10 +98,11 @@ footer {
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
-@media only dscreen and (max-width: 600px) {
-    .mobile-class{
-        display:inline;
+@media only screen and (max-width: 600px) {
+    .mobile-class {
+        display: inline;
     }
+
     .sidenav {
         height: auto;
         padding: 15px;

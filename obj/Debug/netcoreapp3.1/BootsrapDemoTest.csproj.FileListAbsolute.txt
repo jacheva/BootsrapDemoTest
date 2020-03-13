@@ -107,7 +107,10 @@ C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\bin\Debug\netcoreapp3.1\zh-
 C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\BootsrapDemoTest.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
-C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
 C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\Projects\Index.cshtml.g.cs
 C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\Projects\p1.cshtml.g.cs
 C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\Projects\List.cshtml.g.cs
+C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\Friend\AllFriends.cshtml.g.cs
+C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\Friend\AddFriend.cshtml.g.cs
+C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\Friend\EditFriend.cshtml.g.cs
+C:\Users\SandraJacheva\source\repos\BootsrapDemoTest\obj\Debug\netcoreapp3.1\Razor\Views\Friend\Index.cshtml.g.cs

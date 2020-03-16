@@ -26,9 +26,9 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="/">Home</a></li>
-                    <li><a href="About">About</a></li>
-                    <li><a href="Projects/List">Products</a></li>
-                    <li><a href="Friend">Friend</a></li>
+                    <li> <a href=@Url.Action("Index", "About")> About</a></li>
+                    <li> <a href =@Url.Action("List", "Products")> Products</a></li>
+                    <li> <a href= @Url.Action("AllFriends", "Friends")>Friends </a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>

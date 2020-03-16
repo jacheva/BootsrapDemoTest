@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BootsrapDemoTest.Controllers
 {
-    public class FriendController : Controller
+    public class FriendsController : Controller
     {
         public IActionResult Index()
         {
@@ -41,13 +41,21 @@ namespace BootsrapDemoTest.Controllers
             if (!ModelState.IsValid)
                 return View("AddFriend", model);
             friends.Add(model);
-            return RedirectToAction("AllFriends", "Friend");
+            return RedirectToAction("AllFriends", "Friends");
         }
 
         public ActionResult EditFriend(int id)
         {
-            var model = friends.ElementAt(id);
-            return View(model);
+            try
+            {
+                var model = friends.ElementAt(id);
+                return View(model);
+            }
+            catch (Exception e)
+            {
+                return RedirectToAction("Error", "Home");
+            }
+            
         }
 
         [HttpPost]
@@ -63,7 +71,7 @@ namespace BootsrapDemoTest.Controllers
         public ActionResult DeleteFriend(int id)
         {
             friends.RemoveAt(id);
-            return RedirectToAction("AllFriends", "Friend");
+            return RedirectToAction("AllFriends", "Friends");
         }
     }
 }

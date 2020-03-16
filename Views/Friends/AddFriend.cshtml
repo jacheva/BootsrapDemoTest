@@ -13,7 +13,7 @@
 
 <h2>Add a friend</h2>
 
-@using (Html.BeginForm("AddFriend", "Friend", FormMethod.Post, new { @class = "form-horizontal" }))
+@using (Html.BeginForm("AddFriend", "Friends", FormMethod.Post, new { @class = "form-horizontal" }))
 {
     <div class="form-group">
         @Html.LabelFor(friend => friend.FriendID, new { @class = "control-label col-sm-2" })

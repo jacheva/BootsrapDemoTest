@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace BootsrapDemoTest.Controllers
 {
-    public class ProjectsController : Controller
+    public class ProductsController : Controller
     {
         public IActionResult Index()
         {

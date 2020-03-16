@@ -6067,33 +6067,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SandraJacheva\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\ReDent\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SandraJacheva\\source\\repos\\BootsrapDemoTest\\BootsrapDemoTest.csproj",
+      "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrapDemoTest.csproj",
       "projectName": "BootsrapDemoTest",
-      "projectPath": "C:\\Users\\SandraJacheva\\source\\repos\\BootsrapDemoTest\\BootsrapDemoTest.csproj",
-      "packagesPath": "C:\\Users\\SandraJacheva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SandraJacheva\\source\\repos\\BootsrapDemoTest\\obj\\",
+      "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrapDemoTest.csproj",
+      "packagesPath": "C:\\Users\\ReDent\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\SandraJacheva\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\ReDent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/transformify-factory/transformify-factory/_packaging/transformify-factory/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {

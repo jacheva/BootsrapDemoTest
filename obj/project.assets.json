@@ -6072,9 +6072,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrapDemoTest.csproj",
-      "projectName": "BootsrapDemoTest",
-      "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrapDemoTest.csproj",
+      "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrtapDemoTest.csproj",
+      "projectName": "BootsrtapDemoTest",
+      "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrtapDemoTest.csproj",
       "packagesPath": "C:\\Users\\ReDent\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\obj\\",
       "projectStyle": "PackageReference",

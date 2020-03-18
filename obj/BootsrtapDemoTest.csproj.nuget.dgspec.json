@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrtapDemoTest.csproj": {}
+    "C:\\Users\\ReDent\\Desktop\\sandra\\BootstrapDemoTest\\BootsrtapDemoTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrtapDemoTest.csproj": {
+    "C:\\Users\\ReDent\\Desktop\\sandra\\BootstrapDemoTest\\BootsrtapDemoTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrtapDemoTest.csproj",
+        "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\BootstrapDemoTest\\BootsrtapDemoTest.csproj",
         "projectName": "BootsrtapDemoTest",
-        "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\BootsrtapDemoTest.csproj",
+        "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootstrapDemoTest\\BootsrtapDemoTest.csproj",
         "packagesPath": "C:\\Users\\ReDent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootsrapDemoTest\\obj\\",
+        "outputPath": "C:\\Users\\ReDent\\Desktop\\sandra\\BootstrapDemoTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ReDent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"

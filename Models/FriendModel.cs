@@ -14,8 +14,6 @@ namespace BootsrapDemoTest.Models
         [Required] public String Name { get; set; }
         [Required] public String Hometown { get; set; }
 
-
-
-
+   
     }
 }
